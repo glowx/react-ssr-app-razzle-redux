@@ -1,21 +1,25 @@
-# Razzle TypeScript Example
+# React SSR Framework
 
-## How to use
+## Commands
 
-<!-- START install generated instructions please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN yarn update-examples TO UPDATE -->Create and start the example:
+Development
 
-```bash
-npx create-razzle-app --example with-typescript with-typescript
-
-cd with-typescript
+```
 yarn start
 ```
-<!-- END install generated instructions please keep comment here to allow auto update -->
 
-## Idea behind the example
-This is an of how to use Razzle with [TypeScript](https://github.com/Microsoft/TypeScript).
+Build
 
-Basic razzle will uses Babel to transform TypeScript to plain JavaScript ( with babel-loader ), and uses TypeScript for type-checking.
+```
+yarn build
+```
 
-Razzle knows how to resolve `.ts` and `.tsx` files out of the box.
+Production
+
+```
+yarn start:prod
+```
+
+## Doc
+
+[https://razzlejs.org/](https://razzlejs.org/)
